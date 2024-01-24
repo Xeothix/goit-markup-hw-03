@@ -115,7 +115,7 @@ img {
 }
 
 .two-list-element {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 /*Section Three*/
@@ -134,7 +134,7 @@ img {
 }
 
 .three-list-element {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -202,7 +202,7 @@ img {
 }
 
 .portfolio-list-two-element {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .portfolio-div-title-and-p {
