@@ -1,0 +1,158 @@
+:root{
+    --brand-color: #FFFFFFFF;
+    --blue: #4d5ae5;
+    --dark-blue: #2e2f42;
+    --more-blue: #434455;
+    --light-color: #f4f4fd;
+    --button-color: #4d5ae5;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+.logo {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.studio {
+    color: #2e2f42;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.navigate {
+    color: #2e2f42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.navigate:hover {
+    color: #404bbf;
+}
+.navigate:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal
+}
+
+.address-a {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-a:hover {
+    color: #404bbf;
+}
+
+.address-a:focus {
+    color: #404bbf;
+}
+
+.section-title {
+    background-color: #2e2f42;
+}
+
+.h-one-section-title {
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.button-title {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button-title:hover {
+    background-color: #404bbf;
+}
+
+.button-title:focus {
+    background-color: #404bbf;
+}
+
+.h-three-sections {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.p-sections {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.sections-title {
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+
+.section-three {
+    background-color: #F4F4FD;
+}
+
+.background-list-section-three {
+    background-color: #FFFFFFFF;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.down-color {
+    color: var(--light-color);
+}
+
+.p-footer {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.buttons-p {
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.buttons-p:hover {
+    color: #FFFFFFFF;
+    background-color: #404BBF;
+}
+
+.buttons-p:focus {
+    color: #FFFFFFFF;
+    background-color: #404BBF;
+}
