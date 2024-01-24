@@ -156,3 +156,7 @@ body {
     color: #FFFFFFFF;
     background-color: #404BBF;
 }
+
+img {
+    display: block;
+}
