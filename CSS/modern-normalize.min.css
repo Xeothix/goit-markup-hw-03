@@ -1,5 +1,28 @@
 /* Homework 3 */
 
+/*General classes*/
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+/*Header*/
 img {
     display: block;
 }
@@ -12,11 +35,6 @@ img {
     display: flex;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
 
 .header-navigate {
     display: flex;
@@ -41,3 +59,43 @@ img {
     display: flex;
     gap: 40px;
 }
+
+/*Section Zero*/
+
+.zero-section {
+    padding: 188px 0;
+}
+
+.zero-title {
+    max-width: 496px;
+}
+
+.zero-button {
+    background-color: #4d5ae5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*Section One*/
+
+.one-section {
+    padding: 120px 0;
+}
+
+.one-list {
+    display: flex;
+    gap: 24px;
+}
+
+.one-list-element {
+    width: calc((100% - 72px) / 4);
+}
+
+.one-title-element {
+    margin-bottom: 8px;
+}
+
