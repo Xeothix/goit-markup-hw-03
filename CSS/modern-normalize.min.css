@@ -186,6 +186,14 @@ img {
     border-radius: 4px;
 }
 
+.portfolio-buttons:hover {
+    border: 1px solid transparent;
+}
+
+.portfolio-buttons:focus {
+    border: 1px solid transparent;
+}
+
 .portfolio-list-two {
     display: flex;
     flex-wrap: wrap;
