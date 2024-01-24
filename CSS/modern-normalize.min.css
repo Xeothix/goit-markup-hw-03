@@ -92,8 +92,7 @@ img {
 }
 
 .one-list-element {
-    width: 100%;
-    min-width: 264px;
+    width: calc((100% - 72px) / 4)
 }
 
 .one-title-element {
