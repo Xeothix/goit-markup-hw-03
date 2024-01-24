@@ -124,7 +124,7 @@ img {
     padding: 120px 0;
 }
 
-.three-title {
+.three-title-h-two {
     margin-bottom: 72px;
 }
 
@@ -135,7 +135,7 @@ img {
 
 .three-list-element {
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 4px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .three-div {
@@ -184,14 +184,6 @@ img {
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
-}
-
-.portfolio-buttons:hover {
-    border: 1px;
-}
-
-.portfolio-buttons:focus {
-    border: 1px;
 }
 
 .portfolio-list-two {

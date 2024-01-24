@@ -150,9 +150,11 @@ body {
 .buttons-p:hover {
     color: #FFFFFFFF;
     background-color: #404BBF;
+    border: 1px;
 }
 
 .buttons-p:focus {
     color: #FFFFFFFF;
     background-color: #404BBF;
+    border: 1px;
 }
