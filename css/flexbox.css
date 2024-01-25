@@ -106,17 +106,6 @@ img {
     margin-bottom: 8px;
 }
 
-/*Homework 4*/
-.one-li-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
-
 /*Section Two*/
 
 .two-section {
